@@ -1,13 +1,69 @@
-body{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+  src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+  url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
 }
+
+@font-face {
+  font-family: "ProximaNovaBold";
+  src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
+  src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+  url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+
 
 a { 
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
  }
 
- div {
-   background-color: #ccc;
- }
+a.tel_number{
+  color: black;
+  
+}
+a.logo_text{
+  color: black;
+  text-transform: uppercase;
+}
+/* .info_and_number {
+  display: flex;
+  flex-direction: row;
+}
+.login_form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+/* .logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}  
+/* .wrapper_header {
+  display: flex;
+  align-items: center;
+}
+.first_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+} */
+.first_row {
+  display: flex;
+  Justify-content: space-between;
+  width: 100%;
+  background: #ffffff;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
