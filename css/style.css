@@ -4,3 +4,10 @@ body{
   justify-content: flex-start;
 }
 
+a { 
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+ }
+
+ div {
+   background-color: #ccc;
+ }
