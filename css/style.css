@@ -3,7 +3,7 @@
   src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
   src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"), url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 @font-face {
@@ -11,15 +11,7 @@
   src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
   src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"), url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"), url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
   font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "ProximaNovaBlack";
-  src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot");
-  src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot?#iefix")format("embedded-opentype"), url("../fonts/ProximaNovaBlack/ProximaNovaBlack.woff") format("woff"), url("../fonts/ProximaNovaBlack/ProximaNovaBlack.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
 }
 
 a {
@@ -29,11 +21,22 @@ a {
 
 a.tel_number {
   color: black;
+  font-size: 14px;
 }
 
-a.logo_text {
+.info_and_number span {
+  font-size: 12px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo a {
   color: black;
   text-transform: uppercase;
+  font-size: 24px;
 }
 
 .first_row {
@@ -43,7 +46,8 @@ a.logo_text {
   Justify-content: space-between;
   width: 100%;
   background: #ffffff;
-  padding: 20px;
+  padding: 17px 30px;
+  text-transform: uppercase;
 }
 
 *,
@@ -56,10 +60,26 @@ html {
   box-sizing: border-box;
 }
 
-.wrapper_header {   
+
+/* .wrapper_header {   
   font-family: "ProximaNovaRegular";
+  font-weight: 400;
+} */
+
+.first_nav nav a,
+.info_and_number span,
+.login_form a {
+  color: #ababab;
 }
 
-.first_nav nav a, .info_and_number span, .login_form a{
-  color: #ababab;  
+.first_nav nav a {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.login_form a {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 10px;
 }
