@@ -39,6 +39,7 @@ a.tel_number {
   text-transform: uppercase;
   font-size: 24px;
   font-family: "ProximaNovaBold";
+  margin-bottom: 50px;
 }
 
 .first_row {
@@ -87,7 +88,8 @@ html {
 }
 
 .second_navbar {
-  margin: 50px 50px 30px 50px;
+  
+  border-top: 1px solid #f2f2f2; 
 }
 
 .second_nav {
@@ -95,6 +97,8 @@ html {
   flex-direction: row;
   justify-content: space-between;
   text-transform: uppercase;
+  margin: 0px 50px 30px 50px;
+  padding-top: 25px;
 }
 
 .second_nav a {
@@ -104,14 +108,15 @@ html {
 }
 
 .slider img {
-  margin: 0 auto;
+  width: 100%;
+  /* margin: 0 auto; */
 }
 
 .slick-next {
-  right: 300px;
+  right: 80px;
 }
 
 .slick-prev {
-  left: 300px;
+  left: 80px;
   z-index: 1;
 }
