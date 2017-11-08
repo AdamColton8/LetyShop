@@ -82,7 +82,7 @@ html {
   font-size: 10px;
 }
 .first_nav {
-  margin-left: -50px;
+  flex-basis: 40%;
 }
 
 .login_form a {
