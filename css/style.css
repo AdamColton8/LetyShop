@@ -18,9 +18,7 @@ a {
   text-decoration: none;
   /* Отменяем подчеркивание у ссылки */
 }
-.wrapper {
-  /* width: 1280px; */
-}
+
 a.tel_number {
   color: #000;
   font-size: 14px;
@@ -136,4 +134,9 @@ html {
 }
 .img_first, .img_second, .img_third{
   flex: initial;  
+  background: url('../img/')
+}
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
 }
