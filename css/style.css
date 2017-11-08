@@ -18,7 +18,9 @@ a {
   text-decoration: none;
   /* Отменяем подчеркивание у ссылки */
 }
-
+.wrapper {
+  /* width: 1280px; */
+}
 a.tel_number {
   color: #000;
   font-size: 14px;
@@ -126,8 +128,12 @@ html {
   left: 80px;
   z-index: 1;
 }
-div.grid_top {
+.grid_top {
   display: flex;
   flex-direction: row;
   Justify-content: space-between;
+  
+}
+.img_first, .img_second, .img_third{
+  flex: initial;  
 }
