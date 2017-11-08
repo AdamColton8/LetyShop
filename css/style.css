@@ -23,6 +23,7 @@ a.tel_number {
   color: #000;
   font-size: 14px;
   font-family: "ProximaNovaBold";
+  margin-right: 10px;
 }
 
 .info_and_number span {
@@ -80,13 +81,18 @@ html {
   margin-right: 10px;
   font-size: 10px;
 }
+.first_nav {
+  margin-left: -50px;
+}
 
 .login_form a {
   margin-left: 10px;
   margin-right: 10px;
   font-size: 10px;
 }
-
+.login_form span{
+  font-size: 12px;
+}
 .second_navbar {
   
   border-top: 1px solid #f2f2f2; 
@@ -119,4 +125,9 @@ html {
 .slick-prev {
   left: 80px;
   z-index: 1;
+}
+div.grid_top {
+  display: flex;
+  flex-direction: row;
+  Justify-content: space-between;
 }
