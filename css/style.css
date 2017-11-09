@@ -216,3 +216,17 @@ html {
   display: block;
   padding-left: 175px;
 }
+.more_info {
+  position: absolute;
+  
+  border-radius: 50%;
+  background-color: #fff;
+  color: #c59a77;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 50px 22px;
+  font-family: "ProximaNovaRegular";
+  bottom: 0px;
+  right: -740px;
+}
