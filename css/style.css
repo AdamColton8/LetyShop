@@ -65,7 +65,7 @@ a.tel_number {
   background: #ffffff;
   padding: 20px 30px;
   text-transform: uppercase;
-  margin-bottom: 43px;
+  margin-bottom: 23px;
 }
 
 *,
@@ -138,8 +138,8 @@ html {
 }
 
 .slick-prev {
-  left: 80px;
-  z-index: 0;
+  left: 50px;
+  z-index: 1;
 }
 
 .grid_top {
@@ -147,8 +147,10 @@ html {
   display: -ms-flex;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   -ms-align-items: center;
   -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .img_first,
@@ -163,7 +165,8 @@ html {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  padding-bottom: 194px;
+  /* padding-bottom: 194px; */
+  height: 194px;
 }
 
 .img_grid_one {
@@ -179,8 +182,8 @@ html {
 }
 .slider_assets {
   position: absolute;
-  top: 360px;
-  left: 280px;
+  top: 100px;
+  left: 80px;
   color: #1e1e1e;
   z-index: 1;
 }
@@ -218,7 +221,6 @@ html {
 }
 .more_info {
   position: absolute;
-  
   border-radius: 50%;
   background-color: #fff;
   color: #c59a77;
@@ -229,4 +231,40 @@ html {
   font-family: "ProximaNovaRegular";
   bottom: 0px;
   right: -740px;
+}
+.slider_wrapper {
+  position: relative;
+}
+.img_grid_one span{
+  color: #c59a77;
+}
+.img_grid_two span{
+  color: #000;
+}
+.img_grid_three span{
+  color: #fff;
+}
+.img_grid_title {
+  font: 18px "ProximaNovaBold", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 40px;
+  display: inline-flex;
+  margin-top: 31px;
+  max-width: 150px;
+}
+.icon_item_first {
+  border-color: #c59a77;
+  color: #c59a77;
+}
+.icon_item {
+  display: block;
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  border: 1px solid;
+  margin-left: 39px;
+  margin-top: 50px;
+}
+.icon_item i {
+  padding: 10px 0 0 16px;
 }
