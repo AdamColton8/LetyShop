@@ -14,6 +14,19 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: 'TrajanPro';
+  src: url('../fonts/TrajanPro/TrajanPro3-Regular.eot');
+  src: url('../fonts/TrajanPro/TrajanPro3-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/TrajanPro/TrajanPro3-Regular.woff2') format('woff2'), url('../fonts/TrajanPro/TrajanPro3-Regular.woff') format('woff'), url('../fonts/TrajanPro/TrajanPro3-Regular.ttf') format('truetype'), url('../fonts/TrajanPro/TrajanPro3-Regular.svg#TrajanPro3-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
   /* Отменяем подчеркивание у ссылки */
@@ -81,6 +94,7 @@ html {
   margin-right: 10px;
   font-size: 10px;
 }
+
 .first_nav {
   flex-basis: 40%;
 }
@@ -90,12 +104,13 @@ html {
   margin-right: 10px;
   font-size: 10px;
 }
-.login_form span{
+
+.login_form span {
   font-size: 12px;
 }
+
 .second_navbar {
-  
-  border-top: 1px solid #f2f2f2; 
+  border-top: 1px solid #f2f2f2;
 }
 
 .second_nav {
@@ -124,19 +139,80 @@ html {
 
 .slick-prev {
   left: 80px;
+  z-index: 0;
+}
+
+.grid_top {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-around;
+  -ms-align-items: center;
+  -ms-flex-wrap: wrap;
+}
+
+.img_first,
+.img_second,
+.img_third {
+  flex: initial;
+}
+
+.img_grid {
+  flex-basis: 33.3333%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 194px;
+}
+
+.img_grid_one {
+  background-image: url('../img/grid_1.jpg');
+}
+
+.img_grid_two {
+  background-image: url('../img/grid_2.png');
+}
+
+.img_grid_three {
+  background-image: url('../img/grid_3.png');
+}
+.slider_assets {
+  position: absolute;
+  top: 360px;
+  left: 280px;
+  color: #1e1e1e;
   z-index: 1;
 }
-.grid_top {
-  display: flex;
-  flex-direction: row;
-  Justify-content: space-between;
-  
+.caption {
+  font: 72px "TrajanPro", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
 }
-.img_first, .img_second, .img_third{
-  flex: initial;  
-  background: url('../img/')
+.separator {
+  display: block;
+  width: 43px;
+  height: 2px;
+  background-color: #1e1e1e;
+  margin-left: 8px;
+  margin-top: 10px;
 }
-.wrapper {
-  max-width: 1280px;
-  margin: 0 auto;
+.descritption_top, .descritption_bot{
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  font-family: "ProximaNovaRegular";
+}
+.descritption_top {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.descritption_bot {
+  margin-top: 0;
+}
+.slider_assets::after {
+  content: url('../img/product.png');
+  height: 182px;
+  width: 223px;
+  display: block;
+  padding-left: 175px;
 }
