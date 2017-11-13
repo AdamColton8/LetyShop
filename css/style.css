@@ -21,7 +21,14 @@
   font-weight: normal;
   font-style: normal;
 }
-
+menu,
+ol,
+ul {
+    padding: 0;
+}
+dd {
+    margin: 0;
+}
 .wrapper {
   max-width: 1280px;
   margin: 0 auto;
@@ -31,6 +38,7 @@ a {
   text-decoration: none;
   /* Отменяем подчеркивание у ссылки */
 }
+
 
 a.tel_number {
   color: #000;
@@ -434,4 +442,66 @@ html {
     max-width: 290px;
     font-family: "ProximaNovaRegular";
     color: #535151;
+}
+footer {
+  background-color: #1e1e1e;
+  padding: 30px;
+}
+.footer_grid {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.footer_col {
+  font-family: "ProximaNovaRegular";
+  font-size: 12px;
+  color: #8e8e8e;
+  margin-bottom: 30px;
+}
+.footer_box{
+  max-width: 120px;
+  margin-top: 8px;
+}
+.footer_col ul{
+  list-style: none;
+  list-style-type: none;
+}
+.footer_col_title {
+  font: 18px 'ProximaNovaBold', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+.footer_col a {
+  display: block;
+  font-size: 12px;
+  color: #8e8e8e;
+  margin-top: 23px;
+}
+.social_buttons li{
+  display: inline-block;
+  margin-right: 7px;
+}
+.social_buttons li a {
+  width: 40px;
+  height: 40px;
+  background-color: #c59a77;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+}
+.fa-instagram {
+  padding: 10px 0 0 11px;
+}
+.fa-vk {
+  padding: 10px 0 0 9px;
+}
+.fa-facebook {
+  padding: 10px 0 0 14px;
 }
